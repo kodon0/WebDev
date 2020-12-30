@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>KDog's DrumKit</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Monoton&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <h1 id="title">🥁 Kieran's Funky Drum Kit! 🥁</h1>
+
+    <h2>Click on the drums to play!</h2>
+
+
+    <table>
+  <tr>
+    <th>Drum</th>
+    <th>Key</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+  </tr>
+</table>
+
+<div class="drumset">
+  <img src="images/drumkit.png" alt="DrumKit" usemap="#drumkitmap">
+    <map name="drumkitmap">
+
+    <div class="drum"><area shape="circle" coords="448,600,200" alt ="d1" id ="d1" href="JavaScript: playSound('sounds/Hi-Hat-Open-Hit.mp3')"></div>
+    <div class="drum"><area shape="circle" coords="556,127,225" alt ="d2" id ="d2" href="JavaScript: playSound('sounds/Crash-Cymbal-Hit.mp3')"></div>
+    <div class="drum"><area shape="circle" coords="920,334,130" alt ="d3" id = "d3" href="JavaScript: playSound('sounds/Small-Tom-Drum-Hit.mp3')"></div>
+    <div class="drum"><area shape="circle" coords="865,673,185" alt ="d4" id = "d4" href="JavaScript: playSound('sounds/Snare-Drum-Hit.mp3')"></div>
+    <div class="drum"><area shape="circle" coords="1236,357,160" alt ="d5" id = "d5" href="JavaScript: playSound('sounds/Medium-Tom-Drum-Hit.mp3')"></div>
+    <div class="drum"><area shape="circle" coords="1453,750,220" alt ="d6" id = "d6" href="JavaScript: playSound('sounds/Floor-Tom.mp3')"></div>
+    <div class="drum"><area shape="circle" coords="1640,216,300" alt ="d7" id = "d7" href="JavaScript: playSound('sounds/Ride-Cymbal-Bell-Hit.mp3')"></div>
+    <div class="drum"><area shape="circle" coords="2017,505,290" alt ="d8" id = "d8" href="JavaScript: playSound('sounds/Crash-Cymbal-Hit2.mp3')"></div>
+    <div class="drum"><area shape="rect" coords="1061,558,1223,956" alt ="d9" id = "d9" href="JavaScript: playSound('sounds/Bass-Drum-Hit.mp3')"></div>
+    </map>
+    </div>
+    <footer>
+      Made by Kieran O'D, 2020
+    </footer>
+  <script src="index.js" charset="utf-8"> </script>
+  </body>
+</html>
