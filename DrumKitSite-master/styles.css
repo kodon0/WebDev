@@ -17,8 +17,16 @@ h2 {
   text-shadow: 3px 0 #80391e;
 }
 footer{
-  color: #DBEDF3;
+  color: #fff1c9;
   font-family: 'Bungee Shade', cursive;
   font-size: 2rem;
   margin: 2rem;
+}
+table{
+  font-size: 1.5rem;
+  color: #fff1c9;
+  font-family: 'Bungee Shade', cursive;
+  text-shadow: 2px 0 #80391e;
+  margin-left: auto;
+  margin-right: auto;
 }
